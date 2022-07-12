@@ -1,0 +1,66 @@
+main{
+    width: 30%;
+}
+
+main form div{
+    width:100%;
+}
+
+
+main form div div{
+    display: flex;
+}
+
+main form div div input{
+    width: 50%;
+    display: flex;
+}
+
+main form div input{
+    width: 98%;
+}
+
+main form div .theme{
+    width: 100%;
+}
+
+main form div select{
+    width: 100%;
+}
+
+main form div textarea{
+    width: 99%;
+    height: 50px;
+}
+
+#firstName::selection{
+    border-color: aqua;
+}
+#lastName:active{
+    border-color: aqua;
+}
+#mail:active{
+    border-color: aqua;
+}
+
+#theme:active{
+    border-color: aqua;
+}
+
+input[type=text]{
+    border-color: aqua;
+}
+
+#message:active{
+    border-color: aqua;
+}
+
+#submitBtn{
+    background-color: aqua;
+}
+
+#submitBtn:active{
+    background-color: rgb(4, 0, 255);
+}
+
+

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev1_1_CSS-Vertiefung_Forms</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main>
+        <form action="">
+            <div class="name">
+                <label for="name"><h2>Name*</h2></label>
+                <div>
+                    <input type="text" name="name" id="firstName" required placeholder="Vorname">
+                    <input type="text" name="name" id="lastName" required placeholder="Nachname">
+                </div>
+            </div>
+
+            <div class="mail">
+                <label for="mail"><h2>Email*</h2></label>
+                <input type="text" name="mail" id="mail" required placeholder="mail">
+            </div>
+
+            <div class="theme">
+                <label for="theme"><h2>Thema</h2></label>
+                <select name="theme" id="theme">
+                    <option value="general">General</option>
+                    <option value="advertise">Advertise</option>
+                    <option value="partnership">Partnership</option>
+                </select>
+            </div>
+
+            <div class="message">
+                <label for="message"><h2>Nachricht*</h2></label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+
+            <div class="submitBtn">
+                <input type="submit" value="Submit" id="submitBtn">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
