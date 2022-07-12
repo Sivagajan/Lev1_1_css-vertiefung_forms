@@ -33,7 +33,7 @@ main form div textarea{
     height: 50px;
 }
 
-#firstName::selection{
+/* #firstName::selection{
     border-color: aqua;
 }
 #lastName:active{
@@ -45,16 +45,16 @@ main form div textarea{
 
 #theme:active{
     border-color: aqua;
-}
+} */
 
-input[type=text]{
+/* input[type=text]{
+    border-color: aqua;
+} */
+
+/* #message:active{
     border-color: aqua;
 }
-
-#message:active{
-    border-color: aqua;
-}
-
+ */
 #submitBtn{
     background-color: aqua;
 }
